@@ -1,0 +1,29 @@
+{
+  "name": "Project18_5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	  "start": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukaszplac/Project18_5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukaszplac/Project18_5/issues"
+  },
+  "homepage": "https://github.com/lukaszplac/Project18_5#readme",
+  "devDependencies": {
+    "webpack": "^3.6.0"
+  },
+
+  "dependencies": {
+    "express": "^4.16.1",
+    "socket.io": "^2.0.3"
+  }
+}
