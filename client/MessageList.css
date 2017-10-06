@@ -3,7 +3,30 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 70%;
+    width: 100%;
     height: 590px;
     padding: 20px;
+    background-color: white;
+    overflow: auto;
+}
+
+.Message {
+	background-color: #EEFDA5;
+	text-align: left;	
+}
+
+.MessageClient {
+	background-color: #B8FBFB;
+	text-align: right;
+}
+
+.Message, .MessageClient {
+	padding: 5px;
+	color: black;
+	border-radius: 5px;
+}
+
+.ClientName {
+	font-size: .6em;
+	text-decoration: underline;
 }

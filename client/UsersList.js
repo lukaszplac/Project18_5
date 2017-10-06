@@ -10,12 +10,18 @@ const UsersList = props => (
     <ul className={styles.UsersList}>
       {
         props.users.map((user) => {
-          return (
+          if (user.name === props.client) {
+            return (
+            <li key={user.id} className={styles.UserItemClient}>
+              {user.name}
+            </li>)
+             } else {
+            return ( 
             <li key={user.id} className={styles.UserItem}>
               {user.name}
-            </li>
-          );
-        })
+            </li>)
+            }
+          })
       }
     </ul>
   </div>

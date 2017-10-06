@@ -31,11 +31,11 @@ class App extends React.Component {
 		        </div>
 		        <div className={styles.AppBody}>
 		          <UsersList
-		            users={this.state.users}
+		            users={this.state.users} client={this.state.name}
 		          />
 		          <div className={styles.MessageWrapper}>
 		            <MessageList
-		              messages={this.state.messages}
+		              messages={this.state.messages} client={this.state.name}
 		            />
 		            <MessageForm
 		              onMessageSubmit={message => this.handleMessageSubmit(message)}

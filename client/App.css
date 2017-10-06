@@ -15,10 +15,11 @@ body {
     display: flex;
     flex-direction: column;
     height: 700px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 2px;
     align-items: center;
     justify-content: flex-start;
+    background-color: lightblue;
 }
 
 .AppHeader {
@@ -27,14 +28,14 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid black;
 }
 
 .AppTitle {
     display: flex;
     width: 30%;
     height: 50px;
-    border-right: 1px solid #ccc;
+    border-right: 1px solid black;
     justify-content: center;
 
     padding: 20px;
