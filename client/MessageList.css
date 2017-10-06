@@ -12,7 +12,18 @@
 
 .Message {
 	background-color: #EEFDA5;
-	text-align: left;	
+	text-align: left;
+  margin: 5px 2px;
+}
+
+.Message>p, .MessageClient>p {
+  margin: 1px;
+}
+
+.Message>span, .MessageClient>span {
+  font-size: .7em;
+  font-style: italic;
+  word-wrap: break-word;
 }
 
 .MessageClient {
@@ -27,6 +38,6 @@
 }
 
 .ClientName {
-	font-size: .6em;
+	font-size: .5em;
 	text-decoration: underline;
 }
